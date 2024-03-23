@@ -1,0 +1,20 @@
+# Ignora todos los archivos en root sin extenciones a excepción de Makefile
+/*
+!/**/
+!/*.*
+!/Makefile
+
+# Editor
+/.vscode/*
+!.vscode/launch.json
+
+# C
+/obj
+*.o
+
+# Valgrind
+*.out
+
+# Python
+__pycache__
+*.py[cod]
